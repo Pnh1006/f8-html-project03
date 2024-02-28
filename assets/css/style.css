@@ -517,3 +517,53 @@ a {
 .dentist__action--btn-icon {
   rotate: 180deg;
 }
+
+/* Install app */
+.install {
+  padding: 170px 0;
+}
+
+.install__inner {
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2e80ce;
+  border-radius: 4px;
+}
+
+.install__img {
+  display: block;
+  width: 284px;
+  height: 522px;
+  margin-top: -95px;
+  margin-right: 170px;
+  object-fit: cover;
+}
+
+.install__heading {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #fff;
+}
+
+.install__desc {
+  margin-top: 18px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+  text-align: left;
+  color: #fff;
+}
+
+.install__action {
+  margin-top: 38px;
+  display: flex;
+}
+
+.install__action--img {
+  margin-left: 28px;
+}
