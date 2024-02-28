@@ -316,3 +316,70 @@ a {
   height: 60px;
   line-height: 60px;
 }
+
+/* How its works */
+.how-its-works {
+  padding: 132px 0;
+}
+.how-its-works .section-heading {
+  text-align: start;
+}
+
+.how-its-works .section-desc {
+  text-align: start;
+  width: 468px;
+  height: 60px;
+}
+
+.how-its-works__list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.how-its-works__item {
+  width: 370px;
+  height: 402px;
+  border: 16px solid #eaf6ff;
+  border-radius: 4px;
+  padding: 58px 59px;
+}
+
+.how-its-works__item:hover {
+  border: 16px solid #2e80ce;
+  position: relative;
+  top: -16px;
+  transition: 0.25s;
+}
+
+.how-its-works__item:hover .how-its-works__item--link {
+  color: #2e80ce;
+}
+
+.how-its-works__item--heading {
+  margin-top: 18px;
+  display: block;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+  color: #10375c;
+}
+
+.how-its-works__item--desc {
+  margin-top: 28px;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  font-weight: 300;
+  text-align: left;
+  color: #575f66;
+}
+
+.how-its-works__item--link {
+  margin-top: 18px;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  font-weight: 400;
+  text-align: left;
+  color: #575f66;
+}
